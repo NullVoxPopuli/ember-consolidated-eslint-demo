@@ -57,7 +57,6 @@
     "ember-source": "~6.2.0",
     "ember-template-lint": "^6.1.0",
     "eslint": "^9.19.0",
-    "loader.js": "^4.7.0",
     "prettier": "^3.4.2",
     "prettier-plugin-ember-template-tag": "^2.0.4",
     "qunit": "^2.24.1",
