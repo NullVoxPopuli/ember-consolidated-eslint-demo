@@ -34,7 +34,6 @@
     "@embroider/compat": "3.8.1-unstable.06606b1",
     "@embroider/config-meta-loader": "0.0.1-unstable.06606b1",
     "@embroider/core": "3.5.1-unstable.06606b1",
-    "@embroider/test-setup": "4.0.1-unstable.06606b1",
     "@embroider/vite": "0.2.2-unstable.06606b1",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
