@@ -13,8 +13,6 @@
   "scripts": {
     "build": "vite build",
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\" --prefixColors auto",
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:css:fix": "concurrently \"pnpm:lint:css -- --fix\"",
     "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" --prefixColors auto",
     "lint:hbs": "ember-template-lint .",
     "lint:hbs:fix": "ember-template-lint . --fix",
@@ -71,9 +69,6 @@
     "prettier-plugin-ember-template-tag": "^2.0.4",
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
-    "stylelint": "^16.14.1",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-prettier": "^5.0.3",
     "tracked-built-ins": "^3.4.0",
     "typescript": "^5.5.4",
     "vite": "^5.4.11"
